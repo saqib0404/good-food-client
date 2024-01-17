@@ -1,0 +1,7 @@
+@media (max-width: 991.98px) {
+    .my-nav {
+        margin-right: 0 !important;
+        margin-left: 4px !important;
+        margin: 2px 0
+    }
+}
