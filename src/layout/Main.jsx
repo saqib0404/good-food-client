@@ -6,8 +6,10 @@ import { Container } from 'react-bootstrap'
 
 const Main = () => {
     return (
-        <Container>
-            <Header />
+        <Container 
+        style={{"backgroundColor": "#f7ebeb"}}
+        >
+            <Header /><hr /><hr />
             <Outlet />
             <Footer />
         </Container>

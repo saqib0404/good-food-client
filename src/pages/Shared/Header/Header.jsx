@@ -5,7 +5,9 @@ import "./Header.css"
 
 const Header = () => {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg"
+            style={{ "backgroundColor": "#f7ebeb" }}
+        >
             <Container fluid>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
